@@ -8,15 +8,8 @@ function makeList(event) {
   const inputBox = document.querySelector('.user-input');
   const num = inputBox.value;
 
-  let i = 1;
+  
 
-  while (i <= num) {
-    addNewLI('item ' + i);
-    if (i % 2 === 0) {
-      makeLatestLIBold();
-    }
-    i = i + 1;
-  }
 }
 
 function addNewLI(text) {
