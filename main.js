@@ -6,9 +6,18 @@ function makeList(event) {
   deletePreviousList();
 
   const inputBox = document.querySelector('.user-input');
-  const num = inputBox.value;
+  let num = inputBox.value;
 
-  
+
+  let i = 1;
+  while(i <= num) {
+    // num = num + 1;
+    addNewLI(num);
+    i = i + 1;
+    console.log(num);
+
+
+  }
 
 }
 
